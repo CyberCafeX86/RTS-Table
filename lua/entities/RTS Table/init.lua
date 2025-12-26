@@ -1,6 +1,7 @@
 AddCSLuaFile("cl_init.lua")
 AddCSLuaFile("shared.lua")
 
+include("entities/RTS Table/lib/grid.lua")
 include("shared.lua")
 
 -- Server-side initialization function for the Entity
